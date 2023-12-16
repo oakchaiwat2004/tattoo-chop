@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #eee;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+NavLink {
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  color: #333;
+}
+
+NavLink.active {
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+}
