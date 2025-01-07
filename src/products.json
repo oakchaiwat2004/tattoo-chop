@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "MG GAT-X103AP Verde Buster Gundam GK",
+      "price": 299,
+      "image": "/images/MG GAT-X103AP Verde Buster Gundam GK.jpg",
+      "description": "MG GAT-X103AP Verde Buster Gundam GK คุณภาพดี สีอลังการ"
+    },
+    {
+      "id": 2,
+      "name": "MG Aegis Gundam Atmospheric Equipment GK",
+      "price": 799,
+      "image": "/images/MG Aegis Gundam Atmospheric Equipment GK.jpg",
+      "description": "MG Aegis Gundam Atmospheric Equipment GK สไตล์แฟชั่น ทันสมัย"
+    },
+    {
+      "id": 3,
+      "name": "Gundam Atmospheric",
+      "price": 799,
+      "image": "/images/download.jpg",
+      "description": "Gundam Atmospheric สไตล์แฟชั่น ทันสมัย        "
+    },
+    {
+      "id": 4,
+      "name": "HGCE Windam Cannon custom build",
+      "price": 799,
+      "image": "/images/HGCE Windam Cannon custom build.jpg",
+      "description": "HGCE Windam Cannon custom build สไตล์แฟชั่น ทันสมัย"
+    }
+  ]
+  

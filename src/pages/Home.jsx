@@ -1,11 +1,8 @@
 import React from 'react'
-
+import ProductCard from '../components/ProductCard'
 const Home = () => {
   return (
-    <>
-      <h1>Welcome to your awesome website!</h1>
-      <p>This is your homepage. Feel free to explore the other pages!</p>
-    </>
+    <ProductCard/>
   );
 }
 
