@@ -3,14 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const Layout = ({ children }) => (
   <div className="flex flex-col min-h-screen bg-black font-sans">
-    <header className="bg-gray-900 shadow">
+    <header className=" bg-slate-600 shadow">
       <nav className="container mx-auto flex justify-between items-center py-4">
-        {/* ชื่อร้าน GUNDUM SHOP ที่มุมซ้าย */}
         <div className="text-white text-2xl font-semibold">
-          GUNDUM SHOP
+          TATTOO SHOP
         </div>
 
-        {/* เมนู */}
         <div className="flex space-x-6">
           <NavLink
             to="/"
@@ -38,7 +36,7 @@ const Layout = ({ children }) => (
     </header>
     <main className="flex-1 p-8 text-white">{children}</main>
     <footer className="bg-gray-900 text-gray-500 py-4 text-center">
-      <p>&copy; GUNDUM SHOP 2025</p>
+      <p>&copy; TATTOO SHOP 2025</p>
     </footer>
   </div>
 );

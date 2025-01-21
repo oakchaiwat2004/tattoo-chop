@@ -1,31 +1,31 @@
 [
     {
       "id": 1,
-      "name": "MG GAT-X103AP Verde Buster Gundam GK",
-      "price": 299,
-      "image": "/images/MG GAT-X103AP Verde Buster Gundam GK.jpg",
-      "description": "MG GAT-X103AP Verde Buster Gundam GK คุณภาพดี สีอลังการ"
+      "name": "ยันต์เก้ายอด",
+      "price": 150,
+      "image": "/images/nine.jpg",
+      "description": "คงกระพันชาตรี ฟันแทงไม่เข้า"
     },
     {
       "id": 2,
-      "name": "MG Aegis Gundam Atmospheric Equipment GK",
-      "price": 799,
-      "image": "/images/MG Aegis Gundam Atmospheric Equipment GK.jpg",
-      "description": "MG Aegis Gundam Atmospheric Equipment GK สไตล์แฟชั่น ทันสมัย"
+      "name": "ยันต์ห้าแถว",
+      "price": 100,
+      "image": "/images/fiveline.jpg",
+      "description": "โดดเด่นด้านโชคลาภการเงิน แก้ดวงชะตาที่ตกต่ำ และเสริมดวงชะตา"
     },
     {
       "id": 3,
-      "name": "Gundam Atmospheric",
-      "price": 799,
-      "image": "/images/download.jpg",
-      "description": "Gundam Atmospheric สไตล์แฟชั่น ทันสมัย        "
+      "name": "ยันต์แปดทิศ",
+      "price": 50,
+      "image": "/images/life.jpg",
+      "description": "เป็นยันต์ชั้นสูง ป้องกันศาสตราวุธทั้งปวง มีชีวิตอยู่ยงคงกระพัน"
     },
     {
       "id": 4,
-      "name": "HGCE Windam Cannon custom build",
-      "price": 799,
-      "image": "/images/HGCE Windam Cannon custom build.jpg",
-      "description": "HGCE Windam Cannon custom build สไตล์แฟชั่น ทันสมัย"
+      "name": "ยันต์จิ้งจก",
+      "price": 200,
+      "image": "/images/juju.jpg",
+      "description": "เสน่ห์ เมตตามหานิยม และเรียกทรัพย์"
     }
   ]
   

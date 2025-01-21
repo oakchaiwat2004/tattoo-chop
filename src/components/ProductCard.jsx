@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProductData from '../products.json'; // Import JSON data
+import ProductData from '../products.json'; 
 
 const ProductCard = () => {
     return (
@@ -30,12 +30,12 @@ const ProductCard = () => {
                         </p>
                     </div>
                     <div className="px-5 pb-5 flex items-center justify-between mt-4">
-                        <span className="text-3xl font-bold text-gray-900 dark:text-white font-mitr">
+                        <span className=" text-2xl font-bold text-gray-900 dark:text-white font-mitr">
                             ฿{product.price.toFixed(2)}
                         </span>
                         <Link
                             to={`/product/${product.id}`}
-                            className="relative inline-block text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-indigo-600 hover:via-purple-600 hover:to-pink-600 focus:ring-4 focus:outline-none focus:ring-pink-300 font-mitr font-medium rounded-lg text-sm px-5 py-2.5 text-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 active:translate-y-0"
+                            className="relative inline-block text-white bg-gradient-to-r from-blue-400 to-green-400 hover:from-blue-500 hover:to-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 font-mitr font-medium rounded-lg text-sm px-5 py-2.5 text-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 active:translate-y-0"
                         >
                             ดูรายละเอียด
                             <span className="absolute inset-0 bg-gradient-to-r from-white/10 to-white/5 opacity-0 hover:opacity-20 rounded-lg transition-opacity duration-300"></span>

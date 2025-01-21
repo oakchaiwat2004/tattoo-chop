@@ -23,14 +23,14 @@ const ProductDetail = () => {
             <div>
               <h1 className="text-4xl font-bold text-gray-900 dark:text-white">{product.name}</h1>
               <p className="mt-4 text-lg text-gray-700 dark:text-gray-300">{product.description}</p>
-              <p className="text-2xl font-semibold mt-6 text-blue-700 dark:text-blue-400">
+              <p className="text-2xl font-semibold mt-6 text-green-700 dark:text-green-400">
                 ราคา: ฿{product.price.toFixed(2)}
               </p>
             </div>
             <div className="mt-6">
               <button
                 onClick={() => window.history.back()}
-                className="relative inline-block text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-indigo-600 hover:via-purple-600 hover:to-pink-600 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 active:translate-y-0 w-full"
+                className="relative inline-block text-white bg-gradient-to-r from-blue-400 to-green-400 hover:from-blue-500 hover:to-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 font-mitr font-medium rounded-lg text-sm px-5 py-2.5 text-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 active:translate-y-0"
               >
                 กลับ
               </button>
