@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Layout = ({ children }) => (
-  <div className="flex flex-col min-h-screen bg-black font-sans">
+  <div className="flex flex-col min-h-screen bg-slate-500 font-jersey">
     <header className=" bg-slate-600 shadow">
       <nav className="container mx-auto flex justify-between items-center py-4">
         <div className="text-white text-2xl font-semibold">

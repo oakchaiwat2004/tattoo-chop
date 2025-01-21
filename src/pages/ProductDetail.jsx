@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import ProductData from '../products.json'; // Import JSON data
+import ProductData from '../products.json';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -11,7 +11,7 @@ const ProductDetail = () => {
   }
 
   return (
-    <div className="container mx-auto p-6 font-mitr">
+    <div className="container mx-auto p-6 font-jersey">
       <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg dark:bg-gray-800">
         <div className="flex items-center p-6">
           <img
@@ -32,7 +32,7 @@ const ProductDetail = () => {
                 onClick={() => window.history.back()}
                 className="relative inline-block text-white bg-gradient-to-r from-blue-400 to-green-400 hover:from-blue-500 hover:to-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 font-mitr font-medium rounded-lg text-sm px-5 py-2.5 text-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 active:translate-y-0"
               >
-                กลับ
+                กลับหน้าหลัก
               </button>
             </div>
           </div>

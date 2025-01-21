@@ -6,7 +6,7 @@ module.exports = {
 ],
   theme: {
   extend: {fontFamily: {
-    mitr: ['Mitr', 'sans-serif'],
+    jersey: ['Bebas Neue', 'sans-serif'],
   },
 },
   },
